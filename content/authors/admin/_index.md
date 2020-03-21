@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Pursuing Masters in Business Analytics
+role: Masters in Business Analytics
 
 # Organizations/Affiliations
 organizations:
@@ -29,7 +29,7 @@ education:
   courses:
   - course: MS in Business Analytics
     institution: University of Illinois, Chicago
-    year: 2019-Present
+    year: 2019-2020
   - course: B.Eng in Electrical and Electronics Engineering
     institution: BITS Pilani, Hyderabad
     year: 2013-2017
@@ -41,7 +41,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: "mailto:vkatth2@uic.edu" #'#contact'  # For a direct email link, use "mailto:vkatth2@uic.edu".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/GeorgeCushen
