@@ -26,7 +26,7 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "NLP"
+    name = "Natural Language Processing"
     tag = "NLP"
   
   [[content.filter_button]]
