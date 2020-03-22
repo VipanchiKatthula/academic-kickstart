@@ -2,7 +2,7 @@
 title: Jaccard Cosine Similarity
 summary: Finding similarity between documents.
 tags:
-- Text Mining
+- NLP
 date: "2020-02-02T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
