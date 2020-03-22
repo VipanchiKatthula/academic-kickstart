@@ -36,7 +36,7 @@ date_format = "Jan 2006"
   date_start = "2018-06-01"
   date_end = "2019-06-07"
   description = """
-  Performed data pre-processing, built machine learning models on RDBMS and Hbase databases, integrated solutions into Tableau for easy and effective visualization.
+  Performed data pre-processing, built machine learning models on RDBMS and Hbase databases. Integrated solutions into Tableau for easy and effective visualization.
   """
   
 [[experience]]
