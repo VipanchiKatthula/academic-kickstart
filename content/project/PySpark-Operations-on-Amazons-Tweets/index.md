@@ -3,7 +3,6 @@ title: 400K Tweet analysis on PySpark
 summary: Finding the word frequencies and basic data analysis using PySpark.
 tags:
 - Big Data
-- PySpark
 - NLP
 date: "2020-02-23T00:00:00Z"
 
