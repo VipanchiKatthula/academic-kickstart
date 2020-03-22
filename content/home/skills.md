@@ -37,5 +37,10 @@ subtitle = ""
   icon_pack = "fas"
   name = "Teaching"
   description = ""  
+[[feature]]
+  icon = "database"
+  icon_pack = "fas"
+  name = "SQL Server, Hadoop"
+  description = "" 
 
 +++
