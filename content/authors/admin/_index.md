@@ -55,7 +55,7 @@ social:
 # To enable, copy your resume/CV to `static/files/resume.pdf` and uncomment the lines below.
  - icon: cv
    icon_pack: ai
-   link: files/resume.pdf
+   link: files/VipanchiKatthula.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
