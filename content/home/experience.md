@@ -18,18 +18,18 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  company = "University of Illinois,Chicago"
+  title = "Teaching Assistant"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "Chicago"
+  date_start = "2019-08-15"
   date_end = ""
   description = """
-  Responsibilities include:
+  Responsibilities :
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Implemented Descriptive Statistical concepts in R programming in 5 lab sessions of 70 students each
+  * Aided students with Bayesian statistical concepts, techniques for multivariate regression, time series, and statistical process control.
+  * Performed all assistant duties, including mentoring, teaching, researching and clerical help.
   """
 
 [[experience]]
