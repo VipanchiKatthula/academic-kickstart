@@ -67,4 +67,5 @@ user_groups:
 - Visitors
 ---
 
-Hello There! I'm a passionate Data Science Enthusiast pursuing Masters in Business Analytics at University of Illinois at Chicago with specialization in Data Science. I also work as a Teaching Assistant for Business Statistics for Information and Decision Sciences department. My academic interests include Natural Language Processing, Feature Engineering and Extraction. 
+#Hello There! 
+I'm a passionate Data Science Enthusiast pursuing Masters in Business Analytics at **University of Illinois at Chicago** with specialization in Data Science. I also work as a **Teaching Assistant** for Business Statistics for Information and Decision Sciences department. My academic interests include Natural Language Processing, Feature Engineering and Extraction. 
