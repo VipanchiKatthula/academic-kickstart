@@ -2,7 +2,6 @@
 title: Document Similarity using POS Tags
 summary: Using Jaccard Similarity to find the closeness between documents.
 tags:
-- Text Mining
 - NLP
 date: "2020-03-22T00:00:00Z"
 
