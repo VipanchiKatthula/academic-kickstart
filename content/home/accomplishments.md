@@ -21,10 +21,10 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Alteryx"
   organization_url = "https://www.alteryx.com/"
-  title = "Data Pipelining and advanced ETL"
+  title = "Alteryx Advanced"
   url = ""
   certificate_url = "https://s3.us-east-2.amazonaws.com/ayx.certificates/20190717_AlterxDesignerAdvanced0U9UMRUT2E1VapHboVdW120V0RaJjRtJmaWdkW2klVhdnRtJmaodVT1RatGbu9ENJpnT.pdf"
   date_start = "2019-07-17"
   date_end = "2021-07-17"
-  description = ""
+  description = "Data Pipelining and advanced ETL"
 
