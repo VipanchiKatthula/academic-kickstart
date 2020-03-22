@@ -27,7 +27,7 @@ subtitle = ""
   
   [[content.filter_button]]
     name = "NLP"
-    tag = "NLP","Text Mining"
+    tag = "NLP"
   
   [[content.filter_button]]
     name = "Big Data"
