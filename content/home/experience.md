@@ -25,8 +25,7 @@ date_format = "Jan 2006"
   date_start = "2019-08-15"
   date_end = ""
   description = """
-  Test run
-  sdfasdf
+  Aided students with Bayesian statistical concepts, techniques for multivariate regression, time series, and statistical process control.
   """
 
 [[experience]]
@@ -36,6 +35,9 @@ date_format = "Jan 2006"
   location = "Hyderabad, India"
   date_start = "2018-06-01"
   date_end = "2019-06-07"
+  description = """
+  Performed data pre-processing, built machine learning models on RDBMS and Hbase databases, integrated solutions into Tableau for easy and effective visualization.
+  """
   
 [[experience]]
   title = "Data Engineering Analyst"
@@ -44,5 +46,8 @@ date_format = "Jan 2006"
   location = "Hyderabad, India"
   date_start = "2017-06-07"
   date_end = "2018-05-31"
+  description = """
+  Developed data pipelines, workflows for retail data management. Deployed interactive reports to showcase the potential orders at compliance risk .
+  """
 
 +++
