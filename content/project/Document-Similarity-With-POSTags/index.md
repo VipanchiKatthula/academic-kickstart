@@ -1,9 +1,9 @@
 ---
 title: Document Similarity using POS Tags
-summary: Using Jaccard Similarity to find the closeness between documents.
+summary: Finding the closeness between documents.
 tags:
 - NLP
-date: "2020-03-22T00:00:00Z"
+date: "2020-03-08T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://github.com/VipanchiKatthula/DocumentSimilarity_With_POSTags"
