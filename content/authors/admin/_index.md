@@ -15,7 +15,7 @@ role: Masters in Business Analytics
 # Organizations/Affiliations
 organizations:
 - name: University of Illinois, Chicago
-  url: ""
+  url: "https://www.uic.edu/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research and professional interests include Natural Language Processing, Data Science and Deep Learning.
@@ -66,6 +66,5 @@ user_groups:
 - Researchers
 - Visitors
 ---
-Hello There!
 
-I'm a passionate Data Science Enthusiast pursuing Masters in Business Analytics at University of Illinois at Chicago with specialization in Data Science. I also work as a Teaching Assistant for Business Statistics for Information and Decision Sciences department. My academic interests include Natural Language Processing, Feature Engineering and Extraction. 
+Hello There! I'm a passionate Data Science Enthusiast pursuing Masters in Business Analytics at University of Illinois at Chicago with specialization in Data Science. I also work as a Teaching Assistant for Business Statistics for Information and Decision Sciences department. My academic interests include Natural Language Processing, Feature Engineering and Extraction. 
