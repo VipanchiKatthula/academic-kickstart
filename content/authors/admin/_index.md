@@ -29,10 +29,10 @@ education:
   courses:
   - course: MS in Business Analytics
     institution: University of Illinois, Chicago
-    year: 2019-2020
-  - course: B.Eng in Electrical and Electronics Engineering
+    year: 2020
+  - course: B.Eng in Electrical and Electronics
     institution: BITS Pilani, Hyderabad
-    year: 2013-2017
+    year: 2017
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
