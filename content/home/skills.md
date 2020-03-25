@@ -35,12 +35,17 @@ subtitle = ""
 [[feature]]
   icon = "chalkboard-teacher"
   icon_pack = "fas"
-  name = "Teaching"
+  name = "Tableau"
   description = ""  
 [[feature]]
   icon = "database"
   icon_pack = "fas"
   name = "SQL Server, Hadoop"
+  description = "" 
+[[feature]]
+  icon = "microsoft"
+  icon_pack = "fab"
+  name = "Microsoft BI Tools"
   description = "" 
 
 +++
