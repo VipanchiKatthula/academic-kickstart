@@ -53,7 +53,7 @@ social:
   link: https://github.com/vipanchikatthula
 - icon: cv
   icon_pack: ai
-  link: files/resume.pdf
+  link: https://vipanchikatthula.github.io/files/resume.pdf #files/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
