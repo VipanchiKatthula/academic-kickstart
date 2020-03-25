@@ -65,4 +65,4 @@ user_groups:
 - Visitors
 ---
 
-I'm a passionate Data Scientist pursuing Masters in Business Analytics at **University of Illinois at Chicago** with specialization in Data Science and Healthcare Analytics. I'm working as a **Teaching Assistant** for Business Statistics for Information and Decision Sciences department. My academic interests include Natural Language Processing, Feature Engineering and Analytics Consulting.
+I'm a passionate Data Scientist pursuing Masters in Business Analytics at **University of Illinois at Chicago** with specialization in Data Science and Healthcare Analytics. I'm working as a **Teaching Assistant** for Business Statistics in Information and Decision Sciences department. My academic interests include Natural Language Processing, Feature Engineering and Analytics Consulting.
