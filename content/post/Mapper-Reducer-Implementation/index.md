@@ -11,22 +11,18 @@ image:
 I  created a `Mapper-Reducer implementation` using basic features of Python to mimic Hadoop's mapper-reducer functionality. I used `Multi-threading` (explained later) to run parallel operations. I used Google Colab to run the model and you can find the required ["Pride_and_Prejudice.txt"] file [here](https://github.com/VipanchiKatthula/Mapper_Reducer_Implementation).
 
 ## Goal
-
 First, let's map the words in the provided text to 1 using the mapper as `<Word,1>` and then use reducer to find the word count in the format `<Word,Count>`. A reducer also sorts the words which needs to be separately added to the series of operations. I implement the multi threading in python to parallelly get the word counts from two lists of words.
 
 ### Input File
-
 ```python
 inputfile = open('/content/drive/My Drive/IDS561BigData/Assignment1/Pride_and_Prejudice.txt',"r")
 text = inputfile.read()
 ```
 
 ### Data cleaning
-
 In order for us to use the text from the book, we have to remove the the punctuations, unnecessary  numbers as they won't help us understand the text in most cases. 
 
-We remove the numbers, convert the text to lower case using `.lower()` command and use Regular Expressions to replace punctuations with a space `' '` . I then remove those Lines with no text in them.
-
+We remove the numbers, convert the text to lower case using `.lower()` command and use Regular Expressions to replace punctuations with a space `' '`. I then remove those Lines with no text in them.
 ```
 def data_clean(text):
   NoNumbers = ''.join([i for i in text if not i.isdigit()]) #Removing numbers
@@ -38,9 +34,7 @@ def data_clean(text):
 ```
 
 ### Splitting data into two parts
-
 Let's define a reusable function which takes a list of words as input to do multi-threading on the given data set. Here "a" is the number of words after you wish to make the split. For example, `splitlines(text,200)` will split the text into split1 and split2 as two sentences with first 1 to 199 words in split1 and rest in split2.
-
 ```
 def splitlines(text,a):
   linessplit = text.splitlines() #Splitting the lines into a list
@@ -50,9 +44,7 @@ def splitlines(text,a):
 ```
 
 ### Mapper 
-
-
-
+We map all the words in "text" to 1 using the `keyval.append([j,1])` command. So, the key here is the word and we apped a value of 1. The output format of the data is `<word,1>`.
 ```
 def mapper(text,out_queue):
   keyval = []
@@ -63,12 +55,8 @@ def mapper(text,out_queue):
   out_queue.put(keyval)
 ```
 
-
-
 ### Sorting Function
-
-
-
+As we have two lists of separate key-value pairs after the split function, now we define sortging function to handle both the lists. We  take two inputs and return only one output which which contains the sorted list of word key value pairs.
 ```
 def sortedlists(list1,list2):
   out = list1 + list2             #Appending the two input lists into a single list
@@ -79,9 +67,7 @@ def sortedlists(list1,list2):
 
 
 ### Partition 
-
-
-
+The below code creates two lists of sorted words in alphabetical order and then we separate the words starting with a-m and n-z. The function returns the sorted lists which will be inputs to the reducer function.
 ```
 def partition(sorted_list) :
  sort1out = []
@@ -94,8 +80,6 @@ def partition(sorted_list) :
 ```
 
 ### Reducer
-
-
 
 ```
 def reducer(part_out1,out_queue) :
@@ -113,9 +97,7 @@ def reducer(part_out1,out_queue) :
 ```
 
 ### Multi - Threading function
-
 The user defined function below takes a function and two inputs as arguments. The function is applied on both the inputs simultaneously and the output is returned by the function.
-
 ```
 import threading
 import queue
@@ -134,9 +116,7 @@ def multi_thread_function(func,map1_input,map2_input):  #func is the function to
 ```
 
 ### Mapper-Reducer
-
 Finally, we combine all the above functions to split the lines after 5000 words and them implement the entire Mapper Reducer operation which mimics the way Hadoop's handles the data.
-
 ```
 def main_function(text):  
   cleantext = data_clean(text)
@@ -151,251 +131,5 @@ output = main_function(text)
 import pandas as pd
 pd.DataFrame(output).to_csv("Output.csv",index=False,header = ["Word","Frequency"]) #Saving file as a .csv file in the current directory
 ```
-
-
-### Math
-
-Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the `math` option in your `config/_default/params.toml` file.
-
-To render *inline* or *block* math, wrap your LaTeX math with `$...$` or `$$...$$`, respectively.
-
-Example **math block**:
-
-```tex
-$$\gamma_{n} = \frac{ 
-\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
-\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
-{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-```
-
-renders as
-
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-
-Example **inline math** `$\nabla F(\mathbf{x}_{n})$` renders as $\nabla F(\mathbf{x}_{n})$.
-
-Example **multi-line math** using the `\\` math linebreak:
-
-```tex
-$$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\
-1-p_0^* & \text {if }k=0.\end{cases}$$
-```
-
-renders as
-
-$$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\
-1-p_0^* & \text {if }k=0.\end{cases}$$
-
-### Diagrams
-
-Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the `diagram` option in your `config/_default/params.toml` file or by adding `diagram: true` to your page front matter.
-
-An example **flowchart**:
-
-    ```mermaid
-    graph TD
-    A[Hard] -->|Text| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
-    ```
-
-renders as
-
-```mermaid
-graph TD
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-An example **sequence diagram**:
-
-    ```mermaid
-    sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
-    ```
-
-renders as
-
-```mermaid
-sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-    John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-```
-
-An example **Gantt diagram**:
-
-    ```mermaid
-    gantt
-    section Section
-    Completed :done,    des1, 2014-01-06,2014-01-08
-    Active        :active,  des2, 2014-01-07, 3d
-    Parallel 1   :         des3, after des1, 1d
-    Parallel 2   :         des4, after des1, 1d
-    Parallel 3   :         des5, after des3, 1d
-    Parallel 4   :         des6, after des4, 1d
-    ```
-
-renders as
-
-```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-
-An example **class diagram**:
-
-    ```mermaid
-    classDiagram
-    Class01 <|-- AveryLongClass : Cool
-    <<interface>> Class01
-    Class09 --> C2 : Where am i?
-    Class09 --* C3
-    Class09 --|> Class07
-    Class07 : equals()
-    Class07 : Object[] elementData
-    Class01 : size()
-    Class01 : int chimp
-    Class01 : int gorilla
-    class Class10 {
-      <<service>>
-      int id
-      size()
-    }
-    ```
-
-renders as
-
-```mermaid
-classDiagram
-Class01 <|-- AveryLongClass : Cool
-<<interface>> Class01
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  <<service>>
-  int id
-  size()
-}
-```
-
-An example **state diagram**:
-
-    ```mermaid
-    stateDiagram
-    [*] --> Still
-    Still --> [*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
-    ```
-
-renders as
-
-```mermaid
-stateDiagram
-[*] --> Still
-Still --> [*]
-Still --> Moving
-Moving --> Still
-Moving --> Crash
-Crash --> [*]
-```
-
-### Todo lists
-
-You can even write your todo lists in Academic too:
-
-```markdown
-- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-```
-
-renders as
-
-- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-
-### Tables
-
-Represent your data in tables:
-
-```markdown
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-```
-
-renders as
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-### Asides
-
-Academic supports a [shortcode for asides](https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts), also referred to as *notices*, *hints*, or *alerts*. By wrapping a paragraph in `{{%/* alert note */%}} ... {{%/* /alert */%}}`, it will render as an aside.
-
-```markdown
-{{%/* alert note */%}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{%/* /alert */%}}
-```
-
-renders as
-
-{{% alert note %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /alert %}}
-
-### Icons
-
-Academic enables you to use a wide range of [icons from _Font Awesome_ and _Academicons_](https://sourcethemes.com/academic/docs/page-builder/#icons) in addition to [emojis](https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis).
-
-Here are some examples using the `icon` shortcode to render icons:
-
-```markdown
-{{</* icon name="terminal" pack="fas" */>}} Terminal  
-{{</* icon name="python" pack="fab" */>}} Python  
-{{</* icon name="r-project" pack="fab" */>}} R
-```
-
-renders as
-
-{{< icon name="terminal" pack="fas" >}} Terminal  
-{{< icon name="python" pack="fab" >}} Python  
-{{< icon name="r-project" pack="fab" >}} R
 
 ### Did you find this page helpful? Consider sharing it 🙌
