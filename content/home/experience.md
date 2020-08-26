@@ -18,12 +18,23 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Machine Learning Researcher"
+  company = "University of Illinois,Chicago"
+  company_url = ""
+  location = "Chicago"
+  date_start = "2020-05-15"
+  date_end = ""
+  description = """
+  Worked on Survey analysis using Health Information National Trends Survey data. Designed Topic Models by scraping Twitter data of Hospitals on COVID-19.
+  """
+
+[[experience]]
   title = "Teaching Assistant"
   company = "University of Illinois,Chicago"
   company_url = ""
   location = "Chicago"
   date_start = "2019-08-15"
-  date_end = ""
+  date_end = "2020-05-15"
   description = """
   Aided students with Bayesian statistical concepts, techniques for multivariate regression, time series, and statistical process control.
   """
