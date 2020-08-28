@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   certificate_url = "https://www.youracclaim.com/badges/d080260a-4c34-4056-ab92-6f76340a64d0/public_url"
   date_start = "2020-08-06"
   date_end = ""
-  description = "Advanced data visualizations"
+  description = "Advanced data visualizations and deeper understanding of Tableau"
 
 [[item]]
   organization = "Udacity"
