@@ -18,7 +18,7 @@ organizations:
   url: "https://www.uic.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Data scientist with 3+ years of experience. Highly interested in NLP, Data Science and Deep Learning.
+bio: Data scientist with 3+ years of experience. Highly interested in NLP, Data Science and personal growth.
 
 interests:
 - Artificial Intelligence
@@ -65,6 +65,6 @@ user_groups:
 - Visitors
 ---
 
-I'm a passionate Data Scientist with 3+ years of exprience, currently pursuing Masters in Business Analytics at **University of Illinois at Chicago** with specialization in Data Science. I'm working with [Prof Ranga](https://business.uic.edu/profiles/chandrasekaran-ranganathan/) as an **Machine Learning researcher** and co-authored "Use of Wearable Healthcare Devices by US adults: Patterns of Use and Key Predictors"[[Link](https://preprints.jmir.org/preprint/22443/accepted)]. 
+I'm a passionate Data Scientist with 3+ years of experience, currently pursuing Masters in Business Analytics at **University of Illinois at Chicago** with specialization in Data Science. I am excited to combine my experience and knowledge from Grad school in dealing with real life problems. I have written multiple blog posts on [Towards Data Science](https://towardsdatascience.com/@vipanchikatthula) and on this website on various machine learning concepts to extend my contribution to the data science community.
 
-I am excited to combine my experience and knowledge from Grad school in dealing with real life problems. I have written multiple blog posts on [Towards Data Science](https://towardsdatascience.com/@vipanchikatthula) and on this website on various machine learning concepts to extend my contribution to the data science community.
+I love working on [innovative projects](https://github.com/VipanchiKatthula) and developing [applications](https://github.com/users/VipanchiKatthula/projects/5) for business use. I enjoy the art of photography and also worked as a freelance graphic designer.
