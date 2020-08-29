@@ -35,13 +35,8 @@ links:
 - name: Published Link
   url: https://preprints.jmir.org/preprint/22443/accepted
 url_pdf: https://s3.ca-central-1.amazonaws.com/assets.jmir.org/assets/preprints/preprint-22443-accepted.pdf
-url_code: '#'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+url_code: 'https://github.com/VipanchiKatthula/Key-Predictors-of-Wearable-Devices'
+url_dataset: 'https://hints.cancer.gov/'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -70,5 +65,5 @@ slides: example
 Click the *Cite* button above to get the text to cite this published paper.
 {{% /alert %}}
 
-Please let me know your thoughts after you read the paper.
+Do share your thoughts after reading the research paper.
 
