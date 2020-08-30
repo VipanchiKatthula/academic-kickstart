@@ -40,6 +40,14 @@ subtitle = ""
   [[content.filter_button]]
     name = "Deployment"
     tag = "Deployment"
+    
+  [[content.filter_button]]
+    name = "Research"
+    tag = "Research"
+    
+  [[content.filter_button]]
+    name = "Tableau"
+    tag = "Tableau"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
