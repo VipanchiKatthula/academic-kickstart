@@ -24,26 +24,26 @@ subtitle = ""
   [[content.filter_button]]
     name = "All"
     tag = "*"
-    
+
   [[content.filter_button]]
-    name = "Big Data"
-    tag = "Big Data"
-    
-  [[content.filter_button]]
-    name = "Natural Language Processing"
-    tag = "NLP"
-    
+    name = "Supervised Learning"
+    tag = "SL"
+ 
   [[content.filter_button]]
     name = "Deep Learning"
     tag = "Deep Learning"
     
   [[content.filter_button]]
-    name = "Deployment"
-    tag = "Deployment"
+    name = "Natural Language Processing"
+    tag = "NLP"
 
   [[content.filter_button]]
-    name = "Supervised Learning"
-    tag = "SL"
+    name = "Big Data"
+    tag = "Big Data"
+    
+  [[content.filter_button]]
+    name = "Deployment"
+    tag = "Deployment"
     
   [[content.filter_button]]
     name = "Research"
