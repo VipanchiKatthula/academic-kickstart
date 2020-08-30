@@ -40,6 +40,10 @@ subtitle = ""
   [[content.filter_button]]
     name = "Deployment"
     tag = "Deployment"
+
+  [[content.filter_button]]
+    name = "Towards Data Science"
+    tag = "TDS"
     
   [[content.filter_button]]
     name = "Research"
