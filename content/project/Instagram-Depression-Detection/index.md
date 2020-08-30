@@ -4,7 +4,7 @@ summary: End-to-end project to predict the mental health status of Instagram use
 tags:
 - NLP
 - Research
-date: "2025-07-02T00:00:00Z"
+date: "2021-12-02T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://github.com/VipanchiKatthula/Instagram-Depression-Detection"
