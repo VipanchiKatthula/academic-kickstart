@@ -4,6 +4,7 @@ summary: Built content based recommendation and also product based search recomm
 tags:
 - NLP
 - Big Data
+- SL
 date: "2020-04-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

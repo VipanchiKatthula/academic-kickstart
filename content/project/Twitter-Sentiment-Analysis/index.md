@@ -3,6 +3,7 @@ title: Sentiment Analysis on Tweets
 summary: Finding the binary sentiment of the tweets(satisfied or not) and basics of text processing.
 tags:
 - NLP
+- SL
 date: "2020-02-20T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
