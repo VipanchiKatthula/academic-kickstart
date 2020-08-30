@@ -3,6 +3,7 @@ title: Depression Detection on Instagram
 summary: End-to-end project to predict the mental health status of Instagram users from their posts and images. Built Un-supervised LDA and Semi-supervised Topic Models using text features.
 tags:
 - NLP
+- SL
 - Research
 date: "2020-07-02T00:00:00Z"
 
