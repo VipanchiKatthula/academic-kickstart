@@ -42,8 +42,8 @@ subtitle = ""
     tag = "Deployment"
 
   [[content.filter_button]]
-    name = "Towards Data Science"
-    tag = "TDS"
+    name = "Supervised Learning"
+    tag = "SL"
     
   [[content.filter_button]]
     name = "Research"
