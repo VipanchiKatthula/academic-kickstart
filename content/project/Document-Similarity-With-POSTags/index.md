@@ -1,6 +1,6 @@
 ---
-title: Document Similarity using POS Tags
-summary: Finding the closeness between documents.
+title: Document Similarity and Word Embedding
+summary: Found Similarity between documents using Jaccard Similarity and including Parts Of Speech(POS) Tags of the words in the model to better find the synchronous relationship between documents. Implemented Word embedding to understand the word clusters.
 tags:
 - NLP
 date: "2020-03-08T00:00:00Z"

@@ -1,6 +1,6 @@
 ---
 title: Jaccard Cosine Similarity
-summary: Finding similarity between documents.
+summary: Finding the contextual closeness between documents using basics of NLP. Implemented basics of text similarity on multiple files and presented the analysis.
 tags:
 - NLP
 date: "2020-02-02T00:00:00Z"

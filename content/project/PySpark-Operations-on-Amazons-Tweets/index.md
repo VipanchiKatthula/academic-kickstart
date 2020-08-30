@@ -1,6 +1,6 @@
 ---
 title: 400K Tweet analysis on PySpark
-summary: Finding the word frequencies and basic data analysis using PySpark.
+summary: Implementation of Spark context, Spark SQL context on Amazon Tweets data set with 400k Tweets. Analyzed the tweets on the busiest day to find the words that were repeated the most in the selected tweets.
 tags:
 - Big Data
 - NLP
