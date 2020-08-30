@@ -62,7 +62,7 @@ date_format = "Jan 2006"
   date_start = "2017-06-07"
   date_end = "2018-05-31"
   description = """
-• Streamlined & maintained data warehouse, data lake metadata, and user documentation for internal business customers. Created and managed database objects including tables, indexes, and procedures using SSIS workflows and data pipelines. <br /> <br />
+• Streamlined & maintained data warehouse, data lake metadata, and user documentation for internal business customers. Created and managed database objects including tables, indexes, and procedures using SSIS workflows and data pipelines. <br />
 • Accelerated the operations for filtering and transformation of the raw data by doing a consistent health check of complex SQL queries over time. <br />
 • **Key Achievement**: Designed interactive Tableau decision dashboards for the compliance team of a major retailer to understand risks associated with their practices. Helped avert potential non-compliance and regulatory risks worth more than $2.0M.
   """
