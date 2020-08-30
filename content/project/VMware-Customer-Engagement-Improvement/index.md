@@ -1,13 +1,12 @@
 ---
-title: Product Recommendation System
-summary: Built content based recommendation and also product based search recommendation system using ALS algorithm on Big Data
+title: VM-ware Improve Customer Engagement
+summary: Analyzed web analytics data of 500+ customers with 700+ variables to improve the conversion rate of visitors to customers. Presented XGBoost model with suggestions to improve it's performance.
 tags:
-- NLP
-- Big Data
-date: "2020-04-01T00:00:00Z"
+- SL
+date: "2019-11-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/VipanchiKatthula/Product-Recommendation-System"
+external_link: "https://github.com/VipanchiKatthula/VMWare-Customer-Engagement"
 
 image:
   caption: 
