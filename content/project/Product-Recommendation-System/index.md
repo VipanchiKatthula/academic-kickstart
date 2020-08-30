@@ -4,7 +4,7 @@ summary: Built content based recommendation and also product based search recomm
 tags:
 - NLP
 - Big Data
-date: "2019-11-01T00:00:00Z"
+date: "2020-04-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://github.com/VipanchiKatthula/Instagram-Depression-Detection"
