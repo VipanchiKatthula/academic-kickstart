@@ -1,5 +1,9 @@
 #about {
   
+  .nav-item {
+    li { float:right; padding:25px; }
+  }
+  
   @-webkit-keyframes slide-from-right {
     0% {-webkit-transform: translateX(150%);transform: translateX(150%)}
     100% { -webkit-transform: translateX(0%); transform: translateX(0%); }
