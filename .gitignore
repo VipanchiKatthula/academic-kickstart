@@ -4,3 +4,7 @@
 # Hugo
 resources/
 public/
+
+# Local tooling (do not commit)
+.venv/
+.bin/
